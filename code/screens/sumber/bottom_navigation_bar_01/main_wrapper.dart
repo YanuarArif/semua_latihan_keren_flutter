@@ -40,7 +40,7 @@ class MainWrapper extends StatelessWidget {
         onPageChanged: controller.animatedToTab,
         controller: controller.pageController,
         physics: const BouncingScrollPhysics(),
-        children: [
+        children: const [
           HomeTab(),
           CartTab(),
           StatisticsTab(),
