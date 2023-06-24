@@ -35,6 +35,7 @@ dependencies:
   flutter_svg: ^2.0.7
   get: ^4.6.5
   iconly: ^1.0.1
+  lottie: ^2.4.0
   smooth_page_indicator: ^1.1.0
   zoom_tap_animation: ^1.1.0
 
@@ -57,8 +58,11 @@ flutter:
     - code\screens\sumber\onboarding_screen_01\images\1.png
     - code\screens\sumber\onboarding_screen_01\images\2.png
     - code\screens\sumber\onboarding_screen_01\images\3.png
+    - assets\lottie\phone-repair.json
+    - assets\lottie\saving.json
+    - assets\lottie\garansi.json
+    
   #   - images/a_dot_ham.jpeg
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see
