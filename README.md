@@ -1,6 +1,6 @@
 # semua_latihan_keren_flutter
 
-A new Flutter project.
+Semua latihan yang saya kerjakan akan diterapkan ke real project
 
 ## Getting Started
 
