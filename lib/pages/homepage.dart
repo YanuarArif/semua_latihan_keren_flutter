@@ -9,6 +9,9 @@ class HomePage extends StatelessWidget {
           child: Text("HomePage"),
         ),
       ),
+      body: Center(
+        child: Text("Ini adalah HomePage"),
+      ),
     );
   }
 }
