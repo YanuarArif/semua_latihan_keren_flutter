@@ -29,12 +29,16 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   animate_do: ^3.0.2
+  cached_network_image: ^3.2.3
   cupertino_icons: ^1.0.2
+  dio: ^5.2.1+1
   flutter:
     sdk: flutter
+  flutter_staggered_grid_view: ^0.6.2
   flutter_svg: ^2.0.7
   get: ^4.6.5
   iconly: ^1.0.1
+  loading_animation_widget: ^1.2.0+4
   lottie: ^2.4.0
   smooth_page_indicator: ^1.1.0
   zoom_tap_animation: ^1.1.0
@@ -61,7 +65,8 @@ flutter:
     - assets\lottie\phone-repair.json
     - assets\lottie\saving.json
     - assets\lottie\garansi.json
-    
+    - code\screens\sumber\image_gallary_online\assets\night_star.jpg
+
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
