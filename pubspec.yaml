@@ -40,7 +40,9 @@ dependencies:
   iconly: ^1.0.1
   loading_animation_widget: ^1.2.0+4
   lottie: ^2.4.0
+  simple_animations: ^4.0.1
   smooth_page_indicator: ^1.1.0
+  supercharged: ^2.1.1
   zoom_tap_animation: ^1.1.0
 
 dev_dependencies:
@@ -66,6 +68,8 @@ flutter:
     - assets\lottie\saving.json
     - assets\lottie\garansi.json
     - code\screens\sumber\image_gallary_online\assets\night_star.jpg
+    - code\screens\sumber\error_page_404\assets\lottie\1.json
+    - code\screens\sumber\error_page_404\assets\lottie\2.json
 
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
