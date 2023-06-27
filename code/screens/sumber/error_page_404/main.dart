@@ -50,4 +50,4 @@ class MyApp extends StatelessWidget {
 
 // sumber materi https://youtu.be/3spl9jZ79DU
 // repo github https://github.com/AmirBayat0/Flutter-Page-404-error-UI
-// packages //? 1. simple_animations: ^4.0.1, 2 (versi terbaru error). supercharged
+// packages //? 1. simple_animations: ^4.0.1, 2 (versi terbaru error/ganti parameter). supercharged
