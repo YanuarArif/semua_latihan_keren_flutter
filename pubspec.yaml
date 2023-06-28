@@ -71,6 +71,8 @@ flutter:
     - code\screens\sumber\image_gallary_online\assets\night_star.jpg
     - code\screens\sumber\error_page_404\assets\lottie\1.json
     - code\screens\sumber\error_page_404\assets\lottie\2.json
+    - code/screens/sumber/shop_app_ui/assets/icons/
+    - code/screens/sumber/shop_app_ui/assets/images/
 
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -89,9 +91,15 @@ flutter:
         - asset: code\screens\sumber\bottom_navigation_bar_01\assets\fonts\OpenSans-VariableFont_wdth,wght.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+    - family: Gordita
+      fonts:
+        - asset: code\screens\sumber\shop_app_ui\assets\fonts\Gordita_Regular.otf
+        - asset: code\screens\sumber\shop_app_ui\assets\fonts\Gordita_Medium.otf
+          weight: 500
+        - asset: code\screens\sumber\shop_app_ui\assets\fonts\Gordita_Bold.otf
+          weight: 700
+        - asset: code\screens\sumber\shop_app_ui\assets\fonts\Gordita_Light.otf
+          weight: 300
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
