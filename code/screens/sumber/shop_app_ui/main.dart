@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import './screens/home_screen.dart';
+import 'screens/home/home_screen.dart';
 import 'constants.dart';
 
 void main() {

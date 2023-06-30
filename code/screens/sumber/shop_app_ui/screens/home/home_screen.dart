@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
-import '../constants.dart';
-import 'component/kategori.dart';
-import 'component/search_form.dart';
+import '../../constants.dart';
+import '../component/baru_datang.dart';
+import '../component/kategori.dart';
+import '../component/popular.dart';
+import '../component/search_form.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -41,7 +42,8 @@ class HomeScreen extends StatelessWidget {
                   'code/screens/sumber/shop_app_ui/assets/icons/Notification.svg'))
         ],
       ),
-      body: Padding(
+      body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
         padding: const EdgeInsets.all(defaultPadding),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -61,7 +63,11 @@ class HomeScreen extends StatelessWidget {
               padding: EdgeInsets.symmetric(vertical: defaultPadding),
               child: KolomPencarian(),
             ),
-            const KategoriProduct()
+            const KategoriProduct(),
+            const SizedBox(height: defaultPadding),
+            const BaruDatang(),
+            const SizedBox(height: defaultPadding),
+            const Populer(),
           ],
         ),
       ),
